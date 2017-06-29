@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+#main_header {
+  margin: 0 auto;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.red-color {
+  color: #ff0000;
+}
+
+.lucida-font {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#tetris_tetrominoes {
+  background-color: #C0C0C0;
+  width: 20%;
+  min-width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tetris-block {
+  border: 2px solid black;
+  height: 44px;
+  width: 100%;
+}
+
+#figure_1 {
+  /* need to add font-size: 0 to get rid of space between inline-block*/
+  font-size: 0;
+  border: 2px solid #000000;
+  min-width: 248px;
+  max-width: 248px;
+  margin-bottom: 22px;
+}
+
+#figure_1 .tetris-block {
+  background-color: #44FFFF;
+  display: inline-block;
+  width: 25%;
+  min-width: 25px;
+}
+
+#figure_2 {
+  position: relative;
+  bottom: -294px;
+}
+
+#figure_2a {
+  min-width: 62px;
+  max-width: 62px;
+  background-color: #FF8800;
+  border: 2px solid #000000;
+}
+
+#figure_2b {
+  position: relative;
+  background-color: #FF8800;
+  border: 2px solid #000000;
+  border-left: 0;
+  top: -48px;
+  right: -60px;
+  min-width: 62px;
+  max-width: 62px;
+}
