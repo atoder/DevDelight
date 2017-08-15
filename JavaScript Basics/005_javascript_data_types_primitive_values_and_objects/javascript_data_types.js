@@ -16,7 +16,9 @@ console.log('undefinedVariable:' + undefineVariable);
 
 // 4) Number
 var number = 4;
-console.log('Number:' + 4);
+var number2 = 1;
+console.log(number + number2);
+
 // 5) String
 var strVar = 'devdelight.com' + ' - Development Done Right';
 console.log(strVar);
@@ -33,10 +35,10 @@ console.log('Object: ' + JSON.stringify(classroom));
 
 //Array (also an object but an ordered list or numberically ordered)
 
-//var classRoomArr = [];
-//var classRoomArr = new Array();
+//var classroomArr = [];
+//var classroomArr = new Array();
 
-var classRoomArr = ['apple', 'banana', 'cherry'];
+var classroomArr = ['apple', 'banana', 'cherry'];
 console.log(classroomArr);
 
 
