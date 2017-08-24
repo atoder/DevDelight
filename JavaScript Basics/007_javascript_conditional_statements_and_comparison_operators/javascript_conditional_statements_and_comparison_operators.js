@@ -1,3 +1,8 @@
+/* 
+ * Conditional statements and comparison operators
+ *
+ */
+
 /*
 var isProgramming = true;
 
