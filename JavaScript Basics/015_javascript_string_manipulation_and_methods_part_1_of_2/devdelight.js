@@ -4,7 +4,7 @@ var testStr2 = 'Hello \tWorld 2\t';
 console.log(testStr);
 console.log(testStr2);
 
-// Retreieving a character
+// Retrieving a character
 console.log(testStr[1]);
 
 
