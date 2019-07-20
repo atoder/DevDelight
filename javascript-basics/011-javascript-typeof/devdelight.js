@@ -43,11 +43,3 @@ if (typeof devdelight === 'number') {
 } else {
   console.log('Default case');
 }
-
-
-
-
-
-
-
-
