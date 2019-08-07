@@ -1,5 +1,3 @@
-
-
 var name = 'Alexander';
 console.log(name);
 

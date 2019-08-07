@@ -41,7 +41,7 @@
 // 5) reduceRight
 /*
  *let arr6 = [1,2,3];
- *let arr7 = arr6.reduce(function(accumulator, el) {
+ *let arr7 = arr6.reduceRight(function(accumulator, el) {
  * return accumulator + el;
  *});
  *console.log(arr7);

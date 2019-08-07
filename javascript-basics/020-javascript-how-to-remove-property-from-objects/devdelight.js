@@ -10,9 +10,9 @@ var personObj = {
 };
 //console.log(personObj['name']);
 
-// How do I remove a property from JavaScript
 //console.log(personObj);
 
+// How do I remove a property from JavaScript
 // 1st way
 delete personObj.name;
 
